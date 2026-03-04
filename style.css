@@ -1470,3 +1470,135 @@ font-size:22px;
 }
 
 }
+/* ================= TABLET ================= */
+
+@media (max-width: 992px){
+
+.product-container{
+flex-direction:column;
+padding:40px 30px;
+}
+
+.slider,
+.product-details{
+width:100%;
+}
+
+.features-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.testimonial-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.portfolio-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.footer-columns{
+grid-template-columns:repeat(2,1fr);
+}
+
+.cta-container{
+flex-direction:column;
+}
+
+.process-content{
+flex-direction:column;
+}
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+/* NAVBAR */
+
+.navbar{
+padding:15px 20px;
+flex-wrap:wrap;
+}
+
+nav ul{
+gap:15px;
+}
+
+.contact-btn{
+padding:8px 14px;
+}
+
+
+/* HERO SECTION */
+
+.product-container{
+padding:30px 20px;
+}
+
+.slider{
+width:100%;
+}
+
+.product-details{
+width:100%;
+}
+
+
+/* BUTTONS */
+
+.buttons{
+flex-direction:column;
+}
+
+.buttons button{
+width:100%;
+}
+
+
+/* GRID SECTIONS */
+
+.features-grid{
+grid-template-columns:1fr;
+}
+
+.testimonial-grid{
+grid-template-columns:1fr;
+}
+
+.portfolio-grid{
+grid-template-columns:1fr;
+}
+
+.footer-columns{
+grid-template-columns:1fr;
+}
+
+
+/* APPLICATION CARDS */
+
+.app-card{
+min-width:240px;
+}
+
+}
+
+
+/* ================= SMALL PHONES ================= */
+
+@media (max-width:480px){
+
+.product-details h1{
+font-size:24px;
+}
+
+.price h2{
+font-size:20px;
+}
+
+.navbar{
+padding:12px 15px;
+}
+
+}
