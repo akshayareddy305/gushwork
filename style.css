@@ -2,9 +2,11 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-}body{
+}
+body{
 margin:0;
-}.container{
+}
+.container{
     max-width:1200px;
     margin:auto;
     padding:0 20px;
@@ -46,8 +48,6 @@ box-shadow:0 4px 20px rgba(0,0,0,0.08);
 .navbar.show {
     transform: translateY(0);
 }
-
-/* prevent content hiding behind navbar */
 body{
 margin:0;
 }
@@ -1657,6 +1657,26 @@ font-size:18px;
 
 .applications-section{
 padding:60px 20px;
+}
+
+}
+@media (max-width:768px){
+
+.navbar{
+flex-direction:column;
+padding:15px;
+gap:12px;
+text-align:center;
+}
+
+nav ul{
+flex-direction:column;
+gap:10px;
+}
+
+.contact-btn{
+width:90%;
+max-width:300px;
 }
 
 }
