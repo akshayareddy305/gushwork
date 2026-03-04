@@ -1330,19 +1330,40 @@ width:100%;
 
 /* NAVBAR */
 
-.navbar{
-padding:15px 20px;
-flex-direction:column;
-gap:15px;
-}
+/* ================= MOBILE NAVBAR ================= */
 
-nav ul{
+@media (max-width:768px){
+
+.nav-container{
 flex-direction:column;
+align-items:center;
 gap:10px;
 }
 
+/* LOGO CENTER */
+
+.logo{
+text-align:center;
+font-size:24px;
+font-weight:600;
+}
+
+/* MENU IN ONE ROW */
+
+.nav-menu ul{
+display:flex;
+flex-direction:row;
+justify-content:center;
+gap:25px;
+margin-top:10px;
+}
+
+/* CONTACT BUTTON HIDE (optional like design) */
+
 .contact-btn{
-width:100%;
+display:none;
+}
+
 }
 
 
@@ -1511,17 +1532,40 @@ flex-direction:column;
 
 /* NAVBAR */
 
-.navbar{
-padding:15px 20px;
-flex-wrap:wrap;
+/* ================= MOBILE NAVBAR ================= */
+
+@media (max-width:768px){
+
+.nav-container{
+flex-direction:column;
+align-items:center;
+gap:10px;
 }
 
-nav ul{
-gap:15px;
+/* LOGO CENTER */
+
+.logo{
+text-align:center;
+font-size:24px;
+font-weight:600;
 }
+
+/* MENU IN ONE ROW */
+
+.nav-menu ul{
+display:flex;
+flex-direction:row;
+justify-content:center;
+gap:25px;
+margin-top:10px;
+}
+
+/* CONTACT BUTTON HIDE (optional like design) */
 
 .contact-btn{
-padding:8px 14px;
+display:none;
+}
+
 }
 
 
@@ -1596,41 +1640,9 @@ padding:12px 15px;
 }
 
 }
-/* MOBILE NAVBAR FIX */
-
-@media (max-width:768px){
-
-.navbar{
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
-
-padding:20px;
-gap:15px;
-text-align:center;
-}
-
-.logo{
-text-align:center;
-}
-
-nav ul{
-display:flex;
-flex-direction:column;
-gap:12px;
-padding:0;
-}
-
-nav ul li{
-list-style:none;
-}
-
 .contact-btn{
 width:90%;
 max-width:300px;
-}
-
 }
 @media (max-width:768px){
 
@@ -1653,30 +1665,42 @@ font-size:18px;
 }
 
 }
+/* ================= MOBILE NAVBAR ================= */
+
 @media (max-width:768px){
 
-.applications-section{
-padding:60px 20px;
-}
-
-}
-@media (max-width:768px){
-
-.navbar{
+.nav-container{
 flex-direction:column;
-padding:15px;
-gap:12px;
-text-align:center;
-}
-
-nav ul{
-flex-direction:column;
+align-items:center;
 gap:10px;
 }
 
+/* LOGO CENTER */
+
+.logo{
+text-align:center;
+font-size:24px;
+font-weight:600;
+}
+
+/* MENU IN ONE ROW */
+
+.nav-menu ul{
+display:flex;
+flex-direction:row;
+justify-content:center;
+gap:25px;
+margin-top:10px;
+}
+.nav-menu a{
+font-size:14px;
+letter-spacing:1px;
+}
+
+/* CONTACT BUTTON HIDE (optional like design) */
+
 .contact-btn{
-width:90%;
-max-width:300px;
+display:none;
 }
 
 }
