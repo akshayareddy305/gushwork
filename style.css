@@ -23,12 +23,6 @@ body {
 .product-container{
 padding:40px 60px;
 }
-
-/* NAVBAR */
-/* STICKY NAVBAR */
-
-/* STICKY NAVBAR */
-
 /* NAVBAR */
 .navbar{
 box-shadow: 0 4px 20px rgba(0,0,0,0.08);
@@ -1599,6 +1593,70 @@ font-size:20px;
 
 .navbar{
 padding:12px 15px;
+}
+
+}
+/* MOBILE NAVBAR FIX */
+
+@media (max-width:768px){
+
+.navbar{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
+padding:20px;
+gap:15px;
+text-align:center;
+}
+
+.logo{
+text-align:center;
+}
+
+nav ul{
+display:flex;
+flex-direction:column;
+gap:12px;
+padding:0;
+}
+
+nav ul li{
+list-style:none;
+}
+
+.contact-btn{
+width:90%;
+max-width:300px;
+}
+
+}
+@media (max-width:768px){
+
+.logo h2{
+font-size:22px;
+}
+
+.logo span{
+font-size:12px;
+}
+
+}
+@media (max-width:768px){
+
+.prev,
+.next{
+width:40px;
+height:40px;
+font-size:18px;
+}
+
+}
+@media (max-width:768px){
+
+.applications-section{
+padding:60px 20px;
 }
 
 }
